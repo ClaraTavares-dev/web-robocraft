@@ -1,0 +1,105 @@
+body{
+    background-color: #e4dfdf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1,p, h2{
+    margin: 0%;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 64px;
+    text-align: right;
+    color: #f8f5f5;
+    padding: 30px;
+    align-self: center;
+}
+#logo{
+    margin: 0 auto;
+}
+.menu a {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 12px;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.descrição{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    align-content: center;
+    gap:20px;
+    justify-items: right;
+    padding: 20px;
+    position: relative;
+}
+.descrição a {
+    text-decoration: none;
+    background-color: rgb(233, 45, 45);
+    color: rgb(254, 255, 255);
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.descrição p{
+    text-align: right;
+}
+
+.vantagens{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+h1,h2, h3,p{
+    margin: 0;
+}
+.vantagem-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.vantagem-item p{
+    grid-column: 2;
+    font-size: 20px;
+}
+.rodape{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+#detalhe{
+    background-color: red;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    right: -35px;
+    top: 20px;
+  
+
+}
